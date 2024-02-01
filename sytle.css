@@ -1,0 +1,80 @@
+
+/* Navbar Styles */
+nav {
+    background-color: #333;
+    /* Navbar background color */
+    padding: 10px 0;
+    /* Padding for the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Navbar shadow for depth */
+    font-family: Arial, sans-serif;
+    /* Font family for navbar text */
+}
+
+nav li {
+    display: inline-block;
+    /* Display list items horizontally */
+    margin-right: 20px;
+    /* Margin between list items */
+}
+
+nav li a {
+    color: #fff;
+    /* Link text color */
+    text-decoration: none;
+    /* Remove underline from links */
+    font-size: 16px;
+    /* Font size for links */
+    transition: color 0.3s ease;
+    /* Smooth color transition on hover */
+}
+
+nav li a:hover {
+    color: #ffd700;
+    /* Link text color on hover */
+}
+
+/* Background Styles */
+body {
+    background-color: #f9f9f9;
+    /* Website background color */
+    /* Background gradient */
+    font-family: Arial, sans-serif;
+    /* Default font family */
+    margin: 0;
+    /* Remove default body margin */
+    padding: 0;
+    /* Remove default body padding */
+    color: #333;
+    /* Default text color */
+}
+
+.joke-container {
+    background-color: #f0f0f0;
+    /* Background color */
+    border-radius: 10px;
+    /* Rounded corners */
+    padding: 20px;
+    /* Padding around the content */
+    margin: 20px auto;
+    /* Center the container horizontally with some spacing */
+    max-width: 600px;
+    /* Maximum width of the container */
+    text-align: center;
+    /* Center the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Drop shadow for a subtle effect */
+    font-family: Arial, sans-serif;
+    /* Font family */
+    font-size: 18px;
+    /* Font size */
+    line-height: 1.6;
+    /* Line height */
+    color: #333;
+    /* Text color */
+}
+h1
+{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
